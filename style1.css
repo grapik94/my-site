@@ -1,0 +1,213 @@
+body
+{
+    background-color: rgb(54, 12, 12);
+    /* height: 720px;
+    width: 1280px; */
+}
+.zagl
+{
+        background: rgba(116, 25, 25, 0.788);
+        border-radius: 8px;
+        border-color: rgba(218, 149, 140, 0.884);
+        border-width: 5px;
+        border-style: double;
+        position: relative;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 0)
+}
+
+div.BD
+{
+    
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+div.BD p
+{
+    
+    margin: 0;
+    color: cornsilk;
+    font-size: 50px;
+}
+div.spisok
+{
+    position: absolute;
+    left: 7px;
+    top: 180px;
+    border-radius: 8px;
+    border-color: rgba(218, 149, 140, 0.884);
+    border-width: 5px;
+    border-style: double;
+    width: 250px;
+    height: 100%;
+    background: rgba(116, 25, 25, 0.788);
+    color: cornsilk;
+    overflow:auto;
+}
+
+.spisok p
+{
+    position: relative; 
+    color: cornsilk;
+    font-size: 20px;
+    left: 20px;
+    top: 15px;
+}
+
+.spisFULL
+{
+    position: relative; 
+    color: cornsilk;
+    font-size: 20px;
+    left: 0px;
+    top: 15px;  
+}
+
+div.vvodsotr
+{
+    position: absolute;
+    right: 7px;
+    top: 180px;
+    border-radius: 8px;
+    border-color: rgba(218, 149, 140, 0.884);
+    border-width: 5px;
+    border-style: double;
+    width: 350px;
+    height: 100%;
+    background: rgba(116, 25, 25, 0.788);
+    color: cornsilk;
+}
+
+.formvvod p
+{
+    position: absolute;
+    color: cornsilk;
+    font-size: 20px;
+    left: 5%;
+}
+.formvvod input
+{
+    position: absolute;
+    background-color: cornsilk;
+    color: rgb(10, 9, 10);
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    top: 60px;
+    left: 50%;
+    font-size: large;
+    transform: translate(-50%, 0)
+}
+.info
+{
+    position: absolute;
+    top: 180px;
+    left: 270px;
+    border-color: darkorange;
+    border-width: 5px;
+    border-style: double;
+    height: 700px;
+    right: 370px;
+    display: flex;
+}
+.info p
+{
+    position: absolute;
+    font-size: 30px;
+    color: cornsilk;
+    transform: translate(-50%, 0);
+    left: 50%;    
+}
+
+#FOTO
+{
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+#vvdate
+{
+    top: 100px;
+    position: absolute;
+    color: cornsilk;
+    font-size: 20px;
+    transform: translate(-50%, 0);
+    left: 50%;    
+}
+#vvdate input
+{
+    width: 270px;
+    height: 40px;
+    font-size: large;
+}
+
+#SAVE
+{
+    position: absolute;
+    background-color: cornsilk;
+    color: rgb(10, 9, 10);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    top: 650px;
+    left: 50%;
+    font-size: large;
+    transform: translate(-50%, 0);   
+}
+
+#VVDAN
+{
+    display: none;
+    position: relative;
+    top: -10%;
+}
+
+#buttonrefresh
+{
+    position: absolute;
+    background-color: cornsilk;
+    color: rgb(10, 9, 10);
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    top: 5px;
+    left: 65px;
+    font-size: 13px;
+    transform: translate(-50%, 0); 
+}
+
+#buttonclean
+{
+    position: absolute;
+    background-color: cornsilk;
+    color: rgb(10, 9, 10);
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    top: 5px;
+    left: 165px;
+    font-size: 13px;
+    transform: translate(-50%, 0);  
+}
+
+.infoFULL
+{
+    position: relative;
+   color: cornsilk ; 
+   font-size: 25px;
+   top: 125px;
+   left: 35px;
+}
+
+.infoFULL img
+{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 400px;
+    top: 20px;
+}
